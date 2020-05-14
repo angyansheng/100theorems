@@ -511,63 +511,101 @@ _"For n ≥ 3, no two positive n<sup>th</sup> powers sum to an n<sup>th</sup> po
 
 ## In progress
 
-? Chinese remainder theorem\
+? Chinese remainder theorem
+
 ? Basel problem (Euler 1734)\
-_"The sum of reciprocals of squares 1+1/4+1/9+⋯ is equal to π<sup>2</sup>/6."_\
+_"The sum of reciprocals of squares 1+1/4+1/9+⋯ is equal to π<sup>2</sup>/6."_
 - Euler also evaluated the sums of reciprocals of even powers up to 26
 - Justification of Euler's original argument had to wait a century
+
 ? Fermat's two-squares theorem (Euler 1749)\
-_"An odd prime is the sum of two squares if and only if it is congruent to 1 mod 4."_\
+_"An odd prime is the sum of two squares if and only if it is congruent to 1 mod 4."_
 - Stated by Girard in 1625 and Fermat in 1640, without proof
+
 Least squares regression (Gauss 1795/Legendre 1805)
-? Cauchy-Schwarz inequality\
+
+? Cauchy-Schwarz inequality
+
 ? Intermediate value theorem (Bolzano 1817/Cauchy 1821)\
-_"A continuous real-valued function f on [a,b] attains all values between f(a) and f(b)."_\
-? Elliptic integrals\
-? Principle of inclusion-exclusion\
+_"A continuous real-valued function f on [a,b] attains all values between f(a) and f(b)."_
+
+? Elliptic integrals
+
+? Principle of inclusion-exclusion
+
 ? Pigeonhole principle (Dirichlet 1834)\
 _"If there are more pigeons than holes, then some hole has more than one pigeon."_
 - Or, _"If there are more holes than pigeons, then some pigeon has more than one hole in it."_
 ? Matrix-tree theorem (Borchardt 1860)\
-_"The number of spanning trees in a graph is equal to any cofactor of its Laplacian matrix."_\
-? Lindermann-Weierstrass theorem (Lindermann 1882, Weierstrass 1885)\
-? Cayley-Hamilton theorem (Frobenius 1878)\
-? Fredholm alternative (1903)\
-? Classification of finitely generated modules over a PID\
-? Perron-Frobenius theorem (Perron 1907/Frobenius 1912)\
-? Brouwer's fixed point theorem\
-? Banach fixed point theorem\
-? Banach-Tarski paradox (1924)\
-? Spectral theorem for self-adjoint operators (Stone/von Neumann 1929-32?)\
-? Radon-Nikodym theorem (Radon 1913, Nikodym 1930)\
-? Birkhoff's ergodic theorem (1931)\
-? Whitney embedding theorem (1930s?)\
+_"The number of spanning trees in a graph is equal to any cofactor of its Laplacian matrix."_
+
+? Lindermann-Weierstrass theorem (Lindermann 1882, Weierstrass 1885)
+
+? Cayley-Hamilton theorem (Frobenius 1878)
+
+? Fredholm alternative (1903)
+
+? Classification of finitely generated modules over a PID
+
+? Perron-Frobenius theorem (Perron 1907/Frobenius 1912)
+
+? Brouwer's fixed point theorem
+
+? Banach fixed point theorem
+
+? Banach-Tarski paradox (1924)
+
+? Spectral theorem for self-adjoint operators (Stone/von Neumann 1929-32?)
+
+? Radon-Nikodym theorem (Radon 1913, Nikodym 1930)
+
+? Birkhoff's ergodic theorem (1931)
+
+? Whitney embedding theorem (1930s?)
+
 ? Sard's theorem (Morse 1939, Sard 1942)\
-_"The set of critical values of a smooth function between manifolds has Lebesgue measure zero."_\
-? Nakayama lemma (Krull 1951, Azumaya 1951/Nakayama 1951)\
-? Selberg trace formula (1956)\
+_"The set of critical values of a smooth function between manifolds has Lebesgue measure zero."_
+
+? Nakayama lemma (Krull 1951, Azumaya 1951/Nakayama 1951)
+
+? Selberg trace formula (1956)
+
 ? Exotic spheres (Milnor 1956)\
 _"There is a smooth manifold which is homeomorphic to, but not diffeomorphic to, the standard 7-sphere."_
 - Open problem: (smooth Poincare conjecture) Is there an exotic 4-sphere?
-? Lax-Milgram theorem\
-? Hartman-Grobman theorem\
-? Hoeffding's inequality (1963)\
-? Max-flow min-cut theorem\
-? Baker's theorem (1966)\
-? Carleson's theorem (1966)\
-? CHSH inequality (1969)\
+
+? Lax-Milgram theorem
+
+? Hartman-Grobman theorem
+
+? Hoeffding's inequality (1963)
+
+? Max-flow min-cut theorem
+
+? Baker's theorem (1966)
+
+? Carleson's theorem (1966)
+
+? CHSH inequality (1969)
+
 ? Hilbert's tenth problem (Matiyasevich 1970)\
-_"Every computably enumerable set is Diophantine."_\
+_"Every computably enumerable set is Diophantine."_
+
 ? No-cloning theorem (Park 1970/Wootters-Zurek 1982/Dieks 1982)\
-_"You cannot make a copy an arbitrary unknown quantum state."_\
-? Lovasz local lemma\
+_"You cannot make a copy an arbitrary unknown quantum state."_
+
+? Lovasz local lemma
 
 ------
 
 ## Bonus: 21st C
 
-? PRIMES is in P (Agrawal-Kayal-Saxena 2002)\
-Poincare conjecture/Thurston geometrisation conjecture (Perelman 2003)\
-? Robertson-Seymour graph minor theorem (2004)\
-? Virtually Haken conjecture (Agol 2012)\
+? PRIMES is in P (Agrawal-Kayal-Saxena 2002)
+
+Poincare conjecture/Thurston geometrisation conjecture (Perelman 2003)
+
+? Robertson-Seymour graph minor theorem (2004)
+
+? Virtually Haken conjecture (Agol 2012)
+
 ? Bounded prime gaps (Zhang 2013)
