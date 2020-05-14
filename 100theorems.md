@@ -85,8 +85,8 @@ _"Differentiation and integration are inverse to each other."_
 - cf. __Generalised Stokes's theorem__
 
 __Taylor's theorem__ (Gregory 1671/Taylor 1715)\
-_"If f:R→R is n-times differentiable at x, then
-f(x+h) = a<sub>0</sub> + a<sub>1</sub>h + ... + a<sub>n</sub>h<sup>n</sup> + g(h)h<sup>n</sup>,
+_"If f:R→R is n-times differentiable at x, then\
+f(x+h) = a<sub>0</sub> + a<sub>1</sub>h + ⋯ + a<sub>n</sub>h<sup>n</sup> + g(h)h<sup>n</sup>,\
 where a<sub>i</sub> = f<sup>(i)</sup>(x)/i! (f<sup>(i)</sup> denotes the i<sup>th</sup> derivative of f), and g(h) → 0 as x → 0."_
 - Generalises best linear approximation to f(x+h) (namely f(x) + f'(x)h)
 - Previously known special cases: 
@@ -133,8 +133,8 @@ _"Every integer greater than 1 can be uniquely written as a product of primes."_
 - First clearly stated and proved in Gauss's Disquisitiones Arithmeticae
 
 __Quadratic reciprocity__ (Gauss 1801)\
-_"Let p and q be distinct odd primes, and consider the equations
-x<sup>2</sup> = p (mod q), y<sup>2</sup> = q (mod p).
+_"Let p and q be distinct odd primes, and consider the equations\
+x<sup>2</sup> = p (mod q), y<sup>2</sup> = q (mod p).\
 If at least one of p,q is 1 (mod 4), then either both equations have solutions or both do not. If p = q = 3 (mod 4), then exactly one of the two equations has a solution."_
 - Theorem with second largest number of known proofs, after Pythagoras's theorem (Gauss himself had 8)
 - Attempts to generalise this result motivated developments in algebraic number theory
@@ -145,14 +145,14 @@ _"Every non-constant polynomial with complex coefficients has at least one compl
 - Gauss's 1799 thesis contains a proof attempt, but assumes a topological result
 
 __Fourier series__ (1807)\
-_"Any 2π-periodic function f:R→R can be represented as
-f(x) ~ a<sub>0</sub>/2 + [a<sub>1</sub>cos(x) + b<sub>1</sub>sin(x)] + [a<sub>2</sub>cos(2x) + b<sub>2</sub>sin(2x)] + ...,
+_"Any 2π-periodic function f:R→R can be represented as\
+f(x) ~ a<sub>0</sub>/2 + [a<sub>1</sub>cos(x) + b<sub>1</sub>sin(x)] + [a<sub>2</sub>cos(2x) + b<sub>2</sub>sin(2x)] + ⋯,\
 where a<sub>n</sub> is twice the average value of f(x)cox(nx), and b<sub>n</sub> is twice the average value of f(x)sin(nx)."_
 - ie. Periodic functions can be decomposed as a sum of sines and cosines
 - Fourier used this to solve the boundary value problem for the heat equation
 - Analogue for continuous frequency gives the Fourier transform
-- Equivalently: _"f can be expressed as
-  f(x) ~ ... + f<sub>-1</sub>e<sup>-ix</sup> + f<sub>0</sub> + f<sub>1</sub>e<sup>ix</sup> + ...,
+- Equivalently: _"f can be expressed as\
+  f(x) ~ ⋯ + f<sub>-1</sub>e<sup>-ix</sup> + f<sub>0</sub> + f<sub>1</sub>e<sup>ix</sup> + ⋯,\
   where f<sub>n</sub> is the average value of f(x)e<sup>-inx</sup>."_
 - Developments in analysis guided by search for sufficient conditions for the convergence of Fourier series:
 	- Riesz-Fischer (1907): If f is in L<sup>2</sup>, then the Fourier series converges in L<sup>2</sup> norm.
@@ -260,12 +260,12 @@ _"The integral of a differential form over the boundary of an orientable manifol
 - cf. __Fundamental theorem of calculus__
 
 __Hilbert's Nullstellensatz__ (1893)\
-_"There is a one-to-one correspondence between algebraic varieties in C<sup>n</sup> and radical ideals in C[X<sub>1</sub>,...,X<sub>n</sub>]."_
+_"There is a one-to-one correspondence between algebraic varieties in C<sup>n</sup> and radical ideals in C[X<sub>1</sub>,…,X<sub>n</sub>]."_
 - German for 'zero-locus theorem'
 - (Affine) algebraic variety: common zero locus of a set of polynomials in n variables
-- Corollary: _"If f, f<sub>1</sub>, ..., f<sub>k</sub> are n-variable polynomials over C, such that f vanishes identically on the common zero locus of f<sub>1</sub>, ..., f<sub>k</sub>, then
-  f<sup>r</sup> = g<sub>1</sub>f<sub>1</sub> + ... + g<sub>k</sub>f<sub>k</sub>
-  for some integer r and polynomials g<sub>1</sub>, ..., g<sub>k</sub>."_
+- Corollary: _"If f, f<sub>1</sub>,…,f<sub>k</sub> are n-variable polynomials over C, such that f vanishes identically on the common zero locus of f<sub>1</sub>,…,f<sub>k</sub>, then
+  f<sup>r</sup> = g<sub>1</sub>f<sub>1</sub> + ⋯ + g<sub>k</sub>f<sub>k</sub>
+  for some integer r and polynomials g<sub>1</sub>,…,g<sub>k</sub>."_
 - Corollary: _"Affine algebraic varieties are determined up to isomorphism by their coordinate rings (polynomials restricted to the variety)."_
 - Fundamental result in algebraic geometry, linking algebraic varieties (geometry) with coordinate rings (algebra)
 
@@ -277,9 +277,9 @@ _"Every simple Lie algebra over C either lies in one of the infinite families A<
 - Can be stated in simpler terms with Dynkin diagrams (1947)
 
 ? __Picard-Lindelof theorem__ (1894)\
-_"The initial-value problem
-y'(t) = f(t,y(t)), y(t<sub>0</sub>) = y<sub>0</sub>
-has a unique solution around t0 if f is uniformly Lipschitz in y and continuous in t."_
+_"The initial-value problem\
+y'(t) = f(t,y(t)), y(t<sub>0</sub>) = y<sub>0</sub>\
+has a unique solution around t<sub>0</sub> if f is uniformly Lipschitz in y and continuous in t."_
 - aka. the existence and uniqueness theorem for first-order ODEs
 
 __Prime number theorem__ (Hadamard 1896/de la Vallee Poussin 1896)\
@@ -367,7 +367,7 @@ _"Any noisy communications channel has a maximum rate of information transmissio
 - Direct applications to coding theory, including data compression and error detection/correction
 
 __Erdos's lower bound for Ramsey numbers__ (1947)\
-_"There exists a 2-coloring of the edges of any complete graph on C*k*2<sup>k/2</sup> vertices with no monochromatic k-clique."_
+_"There exists a 2-coloring of the edges of any complete graph on Ck2<sup>k/2</sup> vertices with no monochromatic k-clique."_
 - Proof sketch: almost every random colouring works
 - Early example of Erdos's powerful probabilistic method
 - The current best known lower bound is only a factor of 2 bigger than this! (Compare to the upper bound, which is ~4<sup>k</sup>)
@@ -384,7 +384,7 @@ _"Any n-player game with a finite set of actions has a mixed-strategy Nash equil
 ## Late 20<sup>th</sup> Century (17)
 
 __Cartan's theorems A and B__ (1951)\
-_"A: A coherent sheaf F over a Stein manifold X is locally finitely generated by its local sections.
+_"A: A coherent sheaf F over a Stein manifold X is locally finitely generated by its local sections.\
  B: The sheaf cohomology H<sup>p</sup>(X,F) is zero in dimensions p > 0."_
 - Foundational in the theory of functions in several complex variables, and in sheaf cohomology
 - Immediately solved the two Cousin problems (1895) for several complex variables
@@ -402,10 +402,10 @@ _"For any irrational algebraic number x and any c > 0, there are only finitely m
 - ie. algebraic numbers cannot be too well-approximated by rationals
 
 __Long exact sequence of a derived functor__ (Cartan-Eilenberg 1956)\
-_"Given a left-exact functor F, any short exact sequence
-0 → A → B → C → 0
-gives rise to a long exact sequence
-0 → F(A) → F(B) → F(C) → R<sup>1</sup>F(A) → R<sup>1</sup>F(B) → R<sup>1</sup>F(C) → R<sup>2</sup>F(A) → ..."_
+_"Given a left-exact functor F, any short exact sequence\
+0 → A → B → C → 0\
+gives rise to a long exact sequence\
+0 → F(A) → F(B) → F(C) → R<sup>1</sup>F(A) → R<sup>1</sup>F(B) → R<sup>1</sup>F(C) → R<sup>2</sup>F(A) → ⋯"_
 - R<sup>i</sup>F: i<sup>th</sup> derived functor of F
 - Unified various examples where a short exact sequence gives rise to a long exact sequence, eg. in homology
 - More broadly, their text Homological Algebra unified previous homology theories and revolutionised the field
@@ -429,7 +429,7 @@ _"The continuum hypothesis can neither be proven nor disproven from the axioms o
 __Atiyah-Singer index theorem__ (1963)\
 _"For an elliptic differential operator on a compact manifold, the difference between the dimensions of the kernel and cokernel is a topological invariant."_
 - ie. _"The analytical index is equal to the topological index"_
-- Subsumes many major theorems, eg. Chern-Gauss-Bonnet (1944), Hirzebruch-Riemann-Roch (1954), Hirzebruch signature theorem (1954), ...
+- Subsumes many major theorems, eg. Chern-Gauss-Bonnet (1944), Hirzebruch-Riemann-Roch (1954), Hirzebruch signature theorem (1954), …
 - Cross-fertilisation with physics, eg. string theory (Witten), instantons and 4-manifolds (Donaldson)
 
 __KAM theorem__ (Kolmogorov 1954, Moser 1962, Arnold 1963)\
@@ -474,7 +474,7 @@ _"The vertices of any planar graph can be coloured with at most 4 colours such t
 - First major theorem proven with computer assistance (What is proof? Baby don't hurt me)
 
 ? __Takens's theorem__ (1981)\
-_"If x is a generic observable function of a dynamical system, then for k large enough, (x(t),x(t+1),...,x(t+k-1)) is an embedding of the attractor into R<sup>k</sup>."_
+_"If x is a generic observable function of a dynamical system, then for k large enough, (x(t),x(t+1),…,x(t+k-1)) is an embedding of the attractor into R<sup>k</sup>."_
 - ie. _"The attractor of a generic dynamical system can be reconstructed from the time-delay plot of a single observable."_
 - Applications to time-series analysis, eg. computing the fractal dimension of attractors
 
@@ -494,15 +494,15 @@ _"The Jones polynomial of a knot is a knot invariant."_
 - Led to the discovery of the HOMFLY-PT polynomial (1985)
 
 __Gromov non-squeezing theorem__ (1985)\
-_"There is no symplectomorphism in R<sup>2</sup>n mapping a ball to a cylinder of smaller radius."_
-- aka. 'it is impossible to squeeze a symplectic camel into the eye of a needle'
+_"There is no symplectomorphism in R<sup>2n</sup> mapping a ball to a cylinder of smaller radius."_
+- ie. 'it is impossible to squeeze a symplectic camel into the eye of a needle'
 - An example of a symplectomorphism: time evolution in phase space
 - Corollary: _"if the initial states of a physical system in phase space are spread out over the unit ball in R<sup>2</sup>n, then these cannot be squeezed into a state where the coordinates of the first particle (q<sub>1</sub>,p<sub>1</sub>) spreads out less than initially."_
 - First restriction on symplectomorphisms (other than being volume-preserving)
 - Introduced concept of pseudoholomorphic curves, which led to symplectic invariants such as Floer homology (1988)
 
 __Fermat's last theorem__ (Wiles 1993, Taylor-Wiles 1994)\
-_"For n at least 3, no two positive n<sup>th</sup> powers sum to an n<sup>th</sup> power."_
+_"For n ≥ 3, no two positive n<sup>th</sup> powers sum to an n<sup>th</sup> power."_
 - First stated by Fermat in an infamous note in Diophantus's Arithmetica: 'I have discovered a truly remarkable proof which this margin is too small to contain'
 - A major impetus for algebraic number theory in the 19<sup>th</sup> and 20<sup>th</sup> century, cf. __Unique factorisation of ideals__
 - Proved an important case of the modularity theorem (Breuil-Conrad-Diamond-Taylor 2001), relating elliptic curves to modular forms; part of the Langlands programme
@@ -513,23 +513,23 @@ _"For n at least 3, no two positive n<sup>th</sup> powers sum to an n<sup>th</su
 
 ? Chinese remainder theorem\
 ? Basel problem (Euler 1734)\
-_"The sum of reciprocals of squares 1+1/4+1/9+... is equal to π<sup>2</sup>/6."_
-	- Euler also evaluated the sums of reciprocals of even powers up to 26
-	- Justification of Euler's original argument had to wait a century
+_"The sum of reciprocals of squares 1+1/4+1/9+⋯ is equal to π<sup>2</sup>/6."_\
+- Euler also evaluated the sums of reciprocals of even powers up to 26
+- Justification of Euler's original argument had to wait a century
 ? Fermat's two-squares theorem (Euler 1749)\
-_"An odd prime is the sum of two squares if and only if it is congruent to 1 mod 4."_
-	- Stated by Girard in 1625 and Fermat in 1640, without proof
+_"An odd prime is the sum of two squares if and only if it is congruent to 1 mod 4."_\
+- Stated by Girard in 1625 and Fermat in 1640, without proof
 Least squares regression (Gauss 1795/Legendre 1805)
 ? Cauchy-Schwarz inequality\
 ? Intermediate value theorem (Bolzano 1817/Cauchy 1821)\
-_"A continuous real-valued function f on [a,b] attains all values between f(a) and f(b)."_
+_"A continuous real-valued function f on [a,b] attains all values between f(a) and f(b)."_\
 ? Elliptic integrals\
 ? Principle of inclusion-exclusion\
 ? Pigeonhole principle (Dirichlet 1834)\
 _"If there are more pigeons than holes, then some hole has more than one pigeon."_
-	- Or, _"If there are more holes than pigeons, then some pigeon has more than one hole in it."_
+- Or, _"If there are more holes than pigeons, then some pigeon has more than one hole in it."_
 ? Matrix-tree theorem (Borchardt 1860)\
-_"The number of spanning trees in a graph is equal to any cofactor of its Laplacian matrix."_
+_"The number of spanning trees in a graph is equal to any cofactor of its Laplacian matrix."_\
 ? Lindermann-Weierstrass theorem (Lindermann 1882, Weierstrass 1885)\
 ? Cayley-Hamilton theorem (Frobenius 1878)\
 ? Fredholm alternative (1903)\
@@ -543,12 +543,12 @@ _"The number of spanning trees in a graph is equal to any cofactor of its Laplac
 ? Birkhoff's ergodic theorem (1931)\
 ? Whitney embedding theorem (1930s?)\
 ? Sard's theorem (Morse 1939, Sard 1942)\
-_"The set of critical values of a smooth function between manifolds has Lebesgue measure zero."_
+_"The set of critical values of a smooth function between manifolds has Lebesgue measure zero."_\
 ? Nakayama lemma (Krull 1951, Azumaya 1951/Nakayama 1951)\
 ? Selberg trace formula (1956)\
 ? Exotic spheres (Milnor 1956)\
 _"There is a smooth manifold which is homeomorphic to, but not diffeomorphic to, the standard 7-sphere."_
-	- Open problem: (smooth Poincare conjecture) Is there an exotic 4-sphere?
+- Open problem: (smooth Poincare conjecture) Is there an exotic 4-sphere?
 ? Lax-Milgram theorem\
 ? Hartman-Grobman theorem\
 ? Hoeffding's inequality (1963)\
@@ -557,9 +557,9 @@ _"There is a smooth manifold which is homeomorphic to, but not diffeomorphic to,
 ? Carleson's theorem (1966)\
 ? CHSH inequality (1969)\
 ? Hilbert's tenth problem (Matiyasevich 1970)\
-_"Every computably enumerable set is Diophantine."_
+_"Every computably enumerable set is Diophantine."_\
 ? No-cloning theorem (Park 1970/Wootters-Zurek 1982/Dieks 1982)\
-_"You cannot make a copy an arbitrary unknown quantum state."_
+_"You cannot make a copy an arbitrary unknown quantum state."_\
 ? Lovasz local lemma\
 
 ------
