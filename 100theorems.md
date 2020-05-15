@@ -1,7 +1,7 @@
 AYS's Top 100 Theorems in Mathematics (in progress)
 ======
 
-Triggered by Paul and Jack Abad's 1999 list of [The Hundred Greatest Theorems](http://pirate.shu.edu/~kahlnath/Top100.html), I have ventured to compile my own Top 100 list.\
+Triggered by Paul and Jack Abad's 1999 list of [The Hundred Greatest Theorems](http://pirate.shu.edu/~kahlnath/Top100.html), I have ventured to compile my own Top 100 list of theorems before 2000.\
 Since I'm not the Fields Medal Committee (and even if I were), I make no claim to objectivity. Indeed, this list reveals much more about my math education and exposure than the 'intrinsic worth' of the theorems (whatever that means).\
 My criteria for selection are roughly: historical significance of the result; connections to different areas of math; relevance to current research; but most importantly, whether I've heard of it before.
 
@@ -9,7 +9,7 @@ Perhaps unconventionally, dates generally refer to discovery, not publishing.\
 / indicates independent discovery, while , indicates building on top of previous work.\
 ? indicates that I'm not sure if the result belongs in the final list.
 
-As of 2020-05-14, there are 66 theorems on this list.
+As of 2020-05-15, there are 68 theorems on this list.
 
 ------
 
@@ -104,7 +104,7 @@ _"The curve of fastest descent between two points is the cycloid."_
 
 ------
 
-## 18<sup>th</sup> Century (3)
+## 18<sup>th</sup> Century (4)
 
 __Konigsberg bridges problem__ (Euler 1735)\
 _"A graph contains a path passing through each edge exactly once if and only if it has exactly 0 or 2 vertices of odd degree."_
@@ -123,21 +123,21 @@ _"P(A|B) = P(B|A)P(A)/P(B)."_
 - Used in Bayesian inference: update probability of hypothesis given state of knowledge
 - Laplace also developed the Bayesian interpretation of probability (What is probability? Baby don't hurt me)
 
-------
-
-## 19<sup>th</sup> Century (21)
-
-__Fundamental theorem of arithmetic__ (Euclid ~300 BC, al-Farisi ~1300, Gauss 1801)\
-_"Every integer greater than 1 can be uniquely written as a product of primes."_
-- Key lemmas were present in Euclid's Elements
-- First clearly stated and proved in Gauss's Disquisitiones Arithmeticae
-
-__Quadratic reciprocity__ (Gauss 1801)\
+__Quadratic reciprocity__ (Gauss 1796)\
 _"Let p and q be distinct odd primes, and consider the equations\
 x<sup>2</sup> = p (mod q), y<sup>2</sup> = q (mod p).\
 If at least one of p,q is 1 (mod 4), then either both equations have solutions or both do not. If p = q = 3 (mod 4), then exactly one of the two equations has a solution."_
 - Theorem with second largest number of known proofs, after Pythagoras's theorem (Gauss himself had 8)
 - Attempts to generalise this result motivated developments in algebraic number theory
+
+------
+
+## 19<sup>th</sup> Century (20)
+
+__Fundamental theorem of arithmetic__ (Euclid ~300 BC, al-Farisi ~1300, Gauss 1801)\
+_"Every integer greater than 1 can be uniquely written as a product of primes."_
+- Key lemmas were present in Euclid's Elements
+- First clearly stated and proved in Gauss's Disquisitiones Arithmeticae
 
 __Fundamental theorem of algebra__ (Argand 1806)\
 _"Every non-constant polynomial with complex coefficients has at least one complex root."_
@@ -291,7 +291,7 @@ _"The number of prime numbers up to N is asymptotic to N/ln N."_
 
 ------
 
-## Early 20<sup>th</sup> Century (13)
+## Early 20<sup>th</sup> Century (15)
 
 __Central limit theorem__ (various, eg. Cauchy 1853, Chebyshev 1887, Markov 1898, Lyapunov 1901)\
 _"The sum of n independent random variables with mean 0 and variance 1, divided by sqrt(n), is distributed as the standard normal in the limit (under certain conditions)."_
@@ -328,6 +328,17 @@ _"Every continuous family of symmetries of a physical system gives rise to a con
 ? __Polya enumeration theorem__ (Redfield 1927/Polya 1937)\
 _"Counting the number of orbits of a group action"_
 - Generalises Burnside's lemma (Cauchy 1845/Frobenius 1887)
+
+__Artin reciprocity law__ (1927)\
+_"Let L/K be an extension of number fields with discriminant ∆. There is a group homomorphism from the ray class group Cl<sub>∆</sub> to Gal(L/K), which maps any prime ideal p in K coprime to ∆ to Frob<sub>p</sub>."_
+- Corollary (K = Q): _"There is a group homomorphism (Z/∆Z)* → Gal(L/Q), which maps any rational prime p not dividing ∆ to Frob<sub>p</sub>."_
+- Central theorem in class field theory, the study of abelian extensions of number fields (among others)
+- Generalises __Quadratic reciprocity__, cubic reciprocity (Jacobi 1837/Eisenstein 1844), biquadratic reciprocity (Eisenstein 1844), …
+
+__Krull's principal ideal theorem__ (1928)\
+_"If R is a Noetherian ring and I is a proper principal ideal of R, then every minimal prime ideal over I has height at most 1."_
+- Basis for Krull's dimension theory, which gives an algebraic definition for the dimension of an algebraic variety
+- Geometric analogue: the dimension of an algebraic variety can decrease by at most 1 when intersected with a hypersurface
 
 __Ramsey's theorem__ (1928)\
 _"For any k, every colouring of edges of a sufficiently large complete graph in two colours contains a monochromatic clique of size k."_
@@ -401,14 +412,15 @@ _"For any functor F from a locally small category C to Set, and any object A in 
 _"For any irrational algebraic number x and any c > 0, there are only finitely many integer solutions to |x-p/q| < 1/q^(2+c)."_
 - ie. algebraic numbers cannot be too well-approximated by rationals
 
-__Long exact sequence of a derived functor__ (Cartan-Eilenberg 1956)\
+__Long exact sequence of a derived functor__ (Cartan-Eilenberg 1956/Grothendieck 1957)\
 _"Given a left-exact functor F, any short exact sequence\
 0 → A → B → C → 0\
 gives rise to a long exact sequence\
 0 → F(A) → F(B) → F(C) → R<sup>1</sup>F(A) → R<sup>1</sup>F(B) → R<sup>1</sup>F(C) → R<sup>2</sup>F(A) → ⋯"_
 - R<sup>i</sup>F: i<sup>th</sup> derived functor of F
 - Unified various examples where a short exact sequence gives rise to a long exact sequence, eg. in homology
-- More broadly, their text Homological Algebra unified previous homology theories and revolutionised the field
+- The Cartan-Eilenberg text Homological Algebra unified previous homology theories and revolutionised the field
+- Grothendieck's 'Tohoku paper' introduced the concept of abelian categories, uniting Cartan-Eilenberg functors on modules and sheaf cohomology
 
 ? __GAGA theorem__ (Serre 1956)\
 _"The category of coherent algebraic sheaves on a complex projective variety is equivalent to the category of coherent analytic sheaves on the corresponding analytic space."_
@@ -563,6 +575,8 @@ _"The number of spanning trees in a graph is equal to any cofactor of its Laplac
 
 ? Whitney embedding theorem (1930s?)
 
+? Measurable Riemann mapping theorem (Morrey 1938)
+
 ? Sard's theorem (Morse 1939, Sard 1942)\
 _"The set of critical values of a smooth function between manifolds has Lebesgue measure zero."_
 
@@ -605,6 +619,8 @@ _"You cannot make a copy an arbitrary unknown quantum state."_
 Poincare conjecture/Thurston geometrisation conjecture (Perelman 2003)
 
 ? Robertson-Seymour graph minor theorem (2004)
+
+Perfectoid spaces (Scholze 2011)
 
 ? Virtually Haken conjecture (Agol 2012)
 
