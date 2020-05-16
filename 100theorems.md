@@ -9,11 +9,11 @@ Perhaps unconventionally, dates generally refer to discovery, not publishing.\
 / indicates independent discovery, while , indicates building on top of previous work.\
 ? indicates that I'm not sure if the result belongs in the final list.
 
-As of 2020-05-15, there are 68 theorems on this list.
+As of 2020-05-16, there are 72 theorems on this list.
 
 ------
 
-## Antiquity (6)
+## Antiquity (7)
 
 __Thales's theorem__ (~600 BC)\
 _"If C is a point on a semicircle with diameter AB, then ACB is a right angle."_
@@ -35,6 +35,11 @@ __Classification of Platonic solids__ (Theaetetus ~400 BC)\
 _"There are exactly 5 regular convex polyhedra."_
 - Construction is non-trivial, eg. why does the dodecahedron close up properly?
 - The final book of Euclid's Elements was devoted to proving this
+
+__Fundamental theorem of arithmetic__ (Euclid ~300 BC, al-Farisi ~1300, Gauss 1801)\
+_"Every integer greater than 1 can be uniquely written as a product of primes."_
+- Key lemmas were present in Euclid's Elements
+- First clearly stated and proved in Gauss's Disquisitiones Arithmeticae
 
 __Area of a circle__ (Archimedes ~250 BC)\
 _"The area of a circle is equal to the area of a right triangle with the radius as height and the circumference as base."_
@@ -134,11 +139,6 @@ If at least one of p,q is 1 (mod 4), then either both equations have solutions o
 
 ## 19<sup>th</sup> Century (20)
 
-__Fundamental theorem of arithmetic__ (Euclid ~300 BC, al-Farisi ~1300, Gauss 1801)\
-_"Every integer greater than 1 can be uniquely written as a product of primes."_
-- Key lemmas were present in Euclid's Elements
-- First clearly stated and proved in Gauss's Disquisitiones Arithmeticae
-
 __Fundamental theorem of algebra__ (Argand 1806)\
 _"Every non-constant polynomial with complex coefficients has at least one complex root."_
 - Corollary: _"Every non-constant polynomial of degree n with complex coefficients has exactly n complex roots (counted with multiplicity)."_
@@ -190,7 +190,7 @@ _"The intermediate fields of a finite Galois field extension correspond to subgr
 - Modern reformulation, in terms of field extensions instead of roots of polynomials, due to Weber (1895) and Artin (1942)
 - cf. __Insolubility of the quintic__
 
-__Independence of the parallel postulate__ (Gauss ~1813/Bolyai 1823/Lobachevsky 1826, Beltrami 1868)\
+__Independence of the parallel postulate__ (Gauss ~1817/Bolyai 1823/Lobachevsky 1826, Beltrami 1868)\
 _"The parallel postulate cannot be proven from the other axioms of Euclidean geometry."_
 - Parallel postulate: given a line and a point not on it, there exists exactly one line through the given point parallel to the given line; equivalent to Euclid's fifth axiom
 - Thought to be less self-evident than Euclid's other axioms, so many attempts were made to prove it
@@ -221,6 +221,12 @@ _"The Weierstrass function is continuous but nowhere differentiable."_
 - The concept of a function had shifted in the past century, from 'analytic expression' to 'continuous function' to the modern definition
 - This result contradicted the widely held belief that continuous functions were differentiable at almost all points
 - Weierstrass is widely regarded as the father of modern analysis, placing it on rigorous foundations
+
+__Lindemann-Weierstrass theorem__ (Lindemann 1882, Weierstrass 1885)\
+_"If a<sub>1</sub>,…,a<sub>n</sub> are algebraic numbers which are linearly independent over Q, then e<sup>a<sub>1</sub></sup>,…,e<sup>a<sub>1</sub></sup> are algebraically independent over Q."_
+- Corollary: _"If a is algebraic, then e<sup>a</sup> is transcendental."_
+- Corollary: _"π is transcendental."_
+- Many hard problems in transcendental number theory, eg. Is π+e irrational?
 
 ? __Jordan curve theorem__ (1887)\
 _"Any simple closed curve in the plane divides it into exactly two connected regions."_
@@ -291,7 +297,7 @@ _"The number of prime numbers up to N is asymptotic to N/ln N."_
 
 ------
 
-## Early 20<sup>th</sup> Century (15)
+## Early 20<sup>th</sup> Century (17)
 
 __Central limit theorem__ (various, eg. Cauchy 1853, Chebyshev 1887, Markov 1898, Lyapunov 1901)\
 _"The sum of n independent random variables with mean 0 and variance 1, divided by sqrt(n), is distributed as the standard normal in the limit (under certain conditions)."_
@@ -345,6 +351,22 @@ _"For any k, every colouring of edges of a sufficiently large complete graph in 
 - eg. _"In any group of 6 people, either 3 of them are mutual friends or 3 of them are mutual strangers."_
 - First result in Ramsey theory, the study of existence of given substructures
 
+__Spectral theorem for self-adjoint operators__ (von Neumann 1929/Stone 1932)\
+_"Every self-adjoint operator T defined densely on a Hilbert space H can be decomposed as an integral\
+T = ∫<sub>R</sub> λ dE<sub>λ</sub>,\
+where E<sub>λ</sub> is a resolution of the identity."_
+- Spectral theory: generalising eigenspace decomposition for finite-dimensional matrices
+- Resolution of the identity: increasing, right-continuous family of projections, with limits 0 at -∞ and Id at +∞
+- Hilbert (1906): _"If T is a compact operator, then H has an orthonormal basis of eigenvectors of T."_
+- Von Neumann provided rigorous foundations for and unified the two formulations of quantum mechanics, Schrodinger's wave mechanics and Heisenberg's matrix mechanics
+
+__Birkhoff's ergodic theorem__ (1931)\
+_"Let X be a finite measure space, and T:X → X be an ergodic map. Then for any integrable f:X → R, the average value of f on almost every orbit is equal to average value of f on X."_
+- ie. time average = space average
+- Ergodic map: measure-preserving, and any invariant subset is of zero measure or full measure; ie. T is 'mixing' on X
+- Central result in ergodic theory: study of statistical properties of dynamical systems; has roots in statistical mechanics (Boltzmann)
+- Generalises to many different settings
+
 __Godel's incompleteness theorems__ (Godel 1931)\
 _"If a consistent axiomatic system is strong enough to express elementary arithmetic, then there are statements it can neither prove nor disprove; in particular, it cannot prove its own consistency."_
 - Arithmetisation of logic: statements and proofs can be represented as numbers, and thus can be discussed within the system itself
@@ -392,7 +414,7 @@ _"Any n-player game with a finite set of actions has a mixed-strategy Nash equil
 
 ------
 
-## Late 20<sup>th</sup> Century (17)
+## Late 20<sup>th</sup> Century (18)
 
 __Cartan's theorems A and B__ (1951)\
 _"A: A coherent sheaf F over a Stein manifold X is locally finitely generated by its local sections.\
@@ -425,6 +447,11 @@ gives rise to a long exact sequence\
 ? __GAGA theorem__ (Serre 1956)\
 _"The category of coherent algebraic sheaves on a complex projective variety is equivalent to the category of coherent analytic sheaves on the corresponding analytic space."_
 - Corollary: (Chow 1949) _"Analytic subvarieties of complex projective n-space are algebraic sets."_
+
+__Existence of exotic spheres__ (Milnor 1956)\
+_"There is a smooth manifold which is homeomorphic to, but not diffeomorphic to, the standard 7-sphere."_
+- Spawned the field of differential topology: the study of smooth manifolds and their invariants under diffeomorphisms
+- Open problem (Smooth Poincare conjecture): Is there an exotic 4-sphere?
 
 __Feit-Thompson theorem__ (1963)\
 _"Every finite group of odd order is solvable."_
@@ -534,6 +561,9 @@ _"The sum of reciprocals of squares 1+1/4+1/9+⋯ is equal to π<sup>2</sup>/6."
 _"An odd prime is the sum of two squares if and only if it is congruent to 1 mod 4."_
 - Stated by Girard in 1625 and Fermat in 1640, without proof
 
+? Lagrange's four-squares theorem (1770)\
+_"Every positive integer is the sum of four squares."_
+
 Least squares regression (Gauss 1795/Legendre 1805)
 
 ? Cauchy-Schwarz inequality
@@ -548,16 +578,17 @@ _"A continuous real-valued function f on [a,b] attains all values between f(a) a
 ? Pigeonhole principle (Dirichlet 1834)\
 _"If there are more pigeons than holes, then some hole has more than one pigeon."_
 - Or, _"If there are more holes than pigeons, then some pigeon has more than one hole in it."_
+
 ? Matrix-tree theorem (Borchardt 1860)\
 _"The number of spanning trees in a graph is equal to any cofactor of its Laplacian matrix."_
-
-? Lindermann-Weierstrass theorem (Lindermann 1882, Weierstrass 1885)
 
 ? Cayley-Hamilton theorem (Frobenius 1878)
 
 ? Fredholm alternative (1903)
 
 ? Classification of finitely generated modules over a PID
+
+? Runge-Kutta method (Runge 1895, Kutta 1901)
 
 ? Perron-Frobenius theorem (Perron 1907/Frobenius 1912)
 
@@ -567,26 +598,21 @@ _"The number of spanning trees in a graph is equal to any cofactor of its Laplac
 
 ? Banach-Tarski paradox (1924)
 
-? Spectral theorem for self-adjoint operators (Stone/von Neumann 1929-32?)
-
 ? Radon-Nikodym theorem (Radon 1913, Nikodym 1930)
 
-? Birkhoff's ergodic theorem (1931)
-
-? Whitney embedding theorem (1930s?)
+? Pontryagin duality (1934)
 
 ? Measurable Riemann mapping theorem (Morrey 1938)
 
 ? Sard's theorem (Morse 1939, Sard 1942)\
 _"The set of critical values of a smooth function between manifolds has Lebesgue measure zero."_
 
+__Whitney embedding theorem__ (1936, 1944)\
+_"Any smooth n-dimensional manifold can be smoothly embedded into R<sup>2n</sup>."_
+
 ? Nakayama lemma (Krull 1951, Azumaya 1951/Nakayama 1951)
 
 ? Selberg trace formula (1956)
-
-? Exotic spheres (Milnor 1956)\
-_"There is a smooth manifold which is homeomorphic to, but not diffeomorphic to, the standard 7-sphere."_
-- Open problem: (smooth Poincare conjecture) Is there an exotic 4-sphere?
 
 ? Lax-Milgram theorem
 
