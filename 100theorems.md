@@ -9,7 +9,7 @@ Perhaps unconventionally, dates generally refer to discovery, not publishing.\
 / indicates independent discovery, while , indicates building on top of previous work.\
 ? indicates that I'm not sure if the result belongs in the final list.
 
-As of 2020-05-16, there are 72 theorems on this list.
+As of 2020-05-17, there are 79 theorems on this list.
 
 ------
 
@@ -54,7 +54,7 @@ _"Solving the equation ax<sup>2</sup>+bx+c = 0"_
 - Brahmagupta gave the first formula in words, equivalent to: _"The solution to ax<sup>2</sup>+bx = c is x = (sqrt(b<sup>2</sup>+4ac)-b)/(2a)."_
 - al-Khwarizmi first considered all cases (ax<sup>2</sup> = bx, ax<sup>2</sup> = c, bx = c, ax<sup>2</sup>+bx = c, ax<sup>2</sup>+c = bx, bx+c = ax<sup>2</sup>)
 - This was before the invention of zero and negative numbers
-- Modern form _"x = (-b+-sqrt(b<sup>2</sup>-4ac))/(2a)"_ first given by Heaton (1896)
+- Modern form _"x = (-b±sqrt(b<sup>2</sup>-4ac))/(2a)"_ first given by Heaton (1896)
 
 ------
 
@@ -137,7 +137,7 @@ If at least one of p,q is 1 (mod 4), then either both equations have solutions o
 
 ------
 
-## 19<sup>th</sup> Century (20)
+## 19<sup>th</sup> Century (21)
 
 __Fundamental theorem of algebra__ (Argand 1806)\
 _"Every non-constant polynomial with complex coefficients has at least one complex root."_
@@ -216,7 +216,7 @@ _"Every nonzero proper ideal in the ring of integers of a number field admits a 
 - Motivated by Fermat's last theorem, Kummer introduced 'ideal numbers' to account for failure of unique factorisation in rings of integers, and proved the result for cyclotomic fields
 - cf. __Fermat's last theorem__
 
-__Nowhere differentiable functions__ (Weierstrass 1872)\
+__Weierstrass function__ (Weierstrass 1872)\
 _"The Weierstrass function is continuous but nowhere differentiable."_
 - The concept of a function had shifted in the past century, from 'analytic expression' to 'continuous function' to the modern definition
 - This result contradicted the widely held belief that continuous functions were differentiable at almost all points
@@ -228,10 +228,10 @@ _"If a<sub>1</sub>,…,a<sub>n</sub> are algebraic numbers which are linearly in
 - Corollary: _"π is transcendental."_
 - Many hard problems in transcendental number theory, eg. Is π+e irrational?
 
-? __Jordan curve theorem__ (1887)\
+__Jordan curve theorem__ (1887)\
 _"Any simple closed curve in the plane divides it into exactly two connected regions."_
 - Dramatic example of an intuitively obvious statement which is hard to prove
-- Main difficulty lies in pathological examples, eg. nowhere-differentiable curves (Weierstrass function, 1872; Koch curve, 1904), curves with positive area (Osgood curves, 1903)
+- Main difficulty lies in pathological examples, eg. nowhere-differentiable curves (__Weierstrass function__, 1872; Koch curve, 1904), curves with positive area (Osgood curves, 1903)
 - Demonstrates the rise of rigour in late 19<sup>th</sup> century development of analysis
 
 __Cantor's theorem__ (1891)\
@@ -239,7 +239,7 @@ _"There is no surjection from any set to its power set."_
 - ie. there are 'different sizes' of infinity
 - Corollary: _"The set of real numbers is uncountable"_ (Cantor 1874)
 - Short proof using the now-famous diagonal argument
-- Leads to Cantor's paradox (the collection of all sets is not a set), foreshadowing the foundational crisis in mathematics (What is a set? Baby don't hurt me)
+- Leads to Cantor's paradox (~1896): the collection of all sets is not a set; cf. __Russell's paradox__
 
 __Arzela-Ascoli theorem__ (Ascoli 1883-84, Arzela 1895)\
 _"A family of continuous real-valued functions on [a,b] is uniformly bounded and equicontinuous if and only if every sequence has a uniformly convergent subsequence."_
@@ -297,13 +297,20 @@ _"The number of prime numbers up to N is asymptotic to N/ln N."_
 
 ------
 
-## Early 20<sup>th</sup> Century (17)
+## Early 20<sup>th</sup> Century (19)
 
 __Central limit theorem__ (various, eg. Cauchy 1853, Chebyshev 1887, Markov 1898, Lyapunov 1901)\
 _"The sum of n independent random variables with mean 0 and variance 1, divided by sqrt(n), is distributed as the standard normal in the limit (under certain conditions)."_
 - Independent of the distribution of the given random variables; explains the universality of the bell curve in statistics
 - Successive weakening of hypotheses, eg. finiteness of support, finiteness of moments
 - Different versions track the development of classical and modern probability theory
+
+__Russell's paradox__ (1901)\
+_"The collection of sets which do not contain themselves cannot be a set."_
+- Exposed inconsistencies in naive set theory, where any definable collection is a set
+- Part of the foundational crisis in mathematics (What is a set? Baby don't hurt me)
+- Led to the development of axiomatic set theory (eg. Zermelo 1908, Fraenkel 1922/Zermelo 1922, von Neumann 1925)
+- cf. __Cantor's theorem__
 
 __Classification of compact surfaces__ (various, eg. Dehn-Heegaard 1907)\
 _"Compact surfaces are determined (up to homeomorphism) by orientability and Euler-Poincare characteristic."_
@@ -316,6 +323,7 @@ _"Every simply connected Riemann surface is biholomorphic to the plane, the open
 - Riemann surface: complex manifold of (complex) dimension 1
 - Motivated by the problems of parametrising algebraic curves over C (Klein), and discrete subgroups of PSL(2,R) (Poincare)
 - Corollary: _"Every Riemann surface admits a conformal metric of constant curvature."_
+- Can be seen as geometrisation in 2 dimensions, cf. __Thurston geometrisation__
 
 __Lebesgue dominated convergence theorem__ (1908)\
 _"Let (f<sub>n</sub>) be a sequence of real-valued measurable functions which converge pointwise to f. If there exists an integrable function g such that |f<sub>n</sub>| ≤ g for all n, then the Lebesgue integral of |f<sub>n</sub>-f| tends to 0."_
@@ -337,7 +345,7 @@ _"Counting the number of orbits of a group action"_
 
 __Artin reciprocity law__ (1927)\
 _"Let L/K be an extension of number fields with discriminant ∆. There is a group homomorphism from the ray class group Cl<sub>∆</sub> to Gal(L/K), which maps any prime ideal p in K coprime to ∆ to Frob<sub>p</sub>."_
-- Corollary (K = Q): _"There is a group homomorphism (Z/∆Z)* → Gal(L/Q), which maps any rational prime p not dividing ∆ to Frob<sub>p</sub>."_
+- Corollary (K = Q): _"There is a group homomorphism (Z/∆Z)*→Gal(L/Q), which maps any rational prime p not dividing ∆ to Frob<sub>p</sub>."_
 - Central theorem in class field theory, the study of abelian extensions of number fields (among others)
 - Generalises __Quadratic reciprocity__, cubic reciprocity (Jacobi 1837/Eisenstein 1844), biquadratic reciprocity (Eisenstein 1844), …
 
@@ -361,7 +369,7 @@ where E<sub>λ</sub> is a resolution of the identity."_
 - Von Neumann provided rigorous foundations for and unified the two formulations of quantum mechanics, Schrodinger's wave mechanics and Heisenberg's matrix mechanics
 
 __Birkhoff's ergodic theorem__ (1931)\
-_"Let X be a finite measure space, and T:X → X be an ergodic map. Then for any integrable f:X → R, the average value of f on almost every orbit is equal to average value of f on X."_
+_"Let X be a finite measure space, and T:X→X be an ergodic map. Then for any integrable f:X→R, the average value of f on almost every orbit is equal to average value of f on X."_
 - ie. time average = space average
 - Ergodic map: measure-preserving, and any invariant subset is of zero measure or full measure; ie. T is 'mixing' on X
 - Central result in ergodic theory: study of statistical properties of dynamical systems; has roots in statistical mechanics (Boltzmann)
@@ -378,6 +386,12 @@ _"There is no general algorithm to decide whether a Turing machine halts on a gi
 - One of the first problems proven to be undecidable; shows the limits of computability
 - Especially significant in the context of the Church-Turing thesis: _"everything that is intuitively computable is computable with a Turing machine"_ (What is computability? Baby don't hurt me)
 - cf. __Godel's incompleteness theorems__
+
+__Whitney embedding theorem__ (1936, 1944)\
+_"Any smooth n-dimensional manifold can be smoothly embedded into R<sup>2n</sup>."_
+- Smooth embedding: smooth injective map with injective differential
+- ie. intrinsic and extrinsic definitions of smooth manifolds are equivalent
+- Introduced Whitney's trick, useful for geometric topology in more than 4 dimensions
 
 __Sobolev embedding theorem__ (1938)\
 _"Conditions for embedding one Sobolev space into another"_
@@ -414,7 +428,7 @@ _"Any n-player game with a finite set of actions has a mixed-strategy Nash equil
 
 ------
 
-## Late 20<sup>th</sup> Century (18)
+## Late 20<sup>th</sup> Century (19)
 
 __Cartan's theorems A and B__ (1951)\
 _"A: A coherent sheaf F over a Stein manifold X is locally finitely generated by its local sections.\
@@ -422,6 +436,15 @@ _"A: A coherent sheaf F over a Stein manifold X is locally finitely generated by
 - Foundational in the theory of functions in several complex variables, and in sheaf cohomology
 - Immediately solved the two Cousin problems (1895) for several complex variables
 - Partial progress by the German complex analysts using technical arguments were rendered obsolete: 'the French have tanks and we have bows and arrows!'
+- cf. __GAGA theorem__
+
+__Lax-Milgram theorem__ (1954)\
+_"Let V be a Hilbert space and A a bilinear form on V such that\
+A(v,w) ≤ C‖v‖‖w‖ and A(v,v) ≥ c‖v‖<sup>2</sup> for all v,w in V.\
+Then for every linear functional L on V, there exists a unique u such that A(u,v) = L(v) for all v."_
+- Weak solution to a PDE: a distribution which satisfies an integral formulation of the PDE, against all test functions
+- Easy to show existence of weak solutions in nice function spaces, like L<sup>p</sup> or Sobolev spaces
+- This result is often used to show existence of strong solutions 'u' with desired regularity from weak solutions 'L'
 
 __Yoneda lemma__ (1954)\
 _"For any functor F from a locally small category C to Set, and any object A in C, the natural transformations Nat(Hom(A,-),F) are in bijection with the elements of F(A), and this bijection is natural in A and F."_
@@ -431,7 +454,7 @@ _"For any functor F from a locally small category C to Set, and any object A in 
 - Categorical concepts and language are now indispensable in mathematics
 
 ? __Roth's theorem__ (1955)\
-_"For any irrational algebraic number x and any c > 0, there are only finitely many integer solutions to |x-p/q| < 1/q^(2+c)."_
+_"For any irrational algebraic number x and any c > 0, there are only finitely many integer solutions to |x-p/q| < 1/q<sup>2+c</sup>."_
 - ie. algebraic numbers cannot be too well-approximated by rationals
 
 __Long exact sequence of a derived functor__ (Cartan-Eilenberg 1956/Grothendieck 1957)\
@@ -446,7 +469,7 @@ gives rise to a long exact sequence\
 
 ? __GAGA theorem__ (Serre 1956)\
 _"The category of coherent algebraic sheaves on a complex projective variety is equivalent to the category of coherent analytic sheaves on the corresponding analytic space."_
-- Corollary: (Chow 1949) _"Analytic subvarieties of complex projective n-space are algebraic sets."_
+- Corollary: (Chow 1949) _"Analytic subvarieties of complex projective n-space are algebraic varieties."_
 
 __Existence of exotic spheres__ (Milnor 1956)\
 _"There is a smooth manifold which is homeomorphic to, but not diffeomorphic to, the standard 7-sphere."_
@@ -512,11 +535,6 @@ __Four colour theorem__ (Appel-Haken 1976)\
 _"The vertices of any planar graph can be coloured with at most 4 colours such that no two adjacent vertices are the same colour."_
 - First major theorem proven with computer assistance (What is proof? Baby don't hurt me)
 
-? __Takens's theorem__ (1981)\
-_"If x is a generic observable function of a dynamical system, then for k large enough, (x(t),x(t+1),…,x(t+k-1)) is an embedding of the attractor into R<sup>k</sup>."_
-- ie. _"The attractor of a generic dynamical system can be reconstructed from the time-delay plot of a single observable."_
-- Applications to time-series analysis, eg. computing the fractal dimension of attractors
-
 __Classification of finite simple groups__ (various, 1983)\
 _"Every finite simple group is either a cyclic group, an alternating group, a group of Lie type, or one of 26 sporadic groups."_
 - aka. 'The Enormous Theorem,' or 'The Thirty Years' War' (Gorenstein)
@@ -545,6 +563,26 @@ _"For n ≥ 3, no two positive n<sup>th</sup> powers sum to an n<sup>th</sup> po
 - First stated by Fermat in an infamous note in Diophantus's Arithmetica: 'I have discovered a truly remarkable proof which this margin is too small to contain'
 - A major impetus for algebraic number theory in the 19<sup>th</sup> and 20<sup>th</sup> century, cf. __Unique factorisation of ideals__
 - Proved an important case of the modularity theorem (Breuil-Conrad-Diamond-Taylor 2001), relating elliptic curves to modular forms; part of the Langlands programme
+
+------
+
+## Personal picks (3)
+
+__Hartman-Grobman theorem__ (Grobman 1959/Hartmann 1959)\
+_"Let f:R<sup>n</sup>→R<sup>n</sup> be a smooth function, and let x<sub>0</sub> be a point such that f(x<sub>0</sub>) = 0, and A = Df(x<sub>0</sub>) has no eigenvalue with real part 0. Then the differential equation dx/dt = f(x) is topologically conjugate to its linearisation dX/dt = AX near x<sub>0</sub>."_
+- ie. ODEs can be linearised around hyperbolic fixed points
+
+__Takens's theorem__ (1981)\
+_"If x is a generic observable function of a dynamical system, then for k large enough, (x(t),x(t+1),…,x(t+k-1)) is an embedding of the attractor into R<sup>k</sup>."_
+- ie. _"The attractor of a generic dynamical system can be reconstructed from the time-delay plot of a single observable."_
+- Applications to time-series analysis, eg. computing the fractal dimension of attractors
+
+__Connectedness of the Mandelbrot set__ (Douady-Hubbard 1985)\
+_"The Mandelbrot set is connected."_
+- Mandelbrot set: set of complex numbers c such that the orbit of 0 under z ↦ z<sup>2</sup> + c stays bounded
+- Mandelbrot first conjectured the set was disconnected, using early computer printouts which missed intricate filaments
+- Advent of personal computing made generating fractals accessible to the public
+- The local connectedness of the Mandelbrot set is a central open problem in complex dynamics
 
 ------
 
@@ -607,16 +645,9 @@ _"The number of spanning trees in a graph is equal to any cofactor of its Laplac
 ? Sard's theorem (Morse 1939, Sard 1942)\
 _"The set of critical values of a smooth function between manifolds has Lebesgue measure zero."_
 
-__Whitney embedding theorem__ (1936, 1944)\
-_"Any smooth n-dimensional manifold can be smoothly embedded into R<sup>2n</sup>."_
-
 ? Nakayama lemma (Krull 1951, Azumaya 1951/Nakayama 1951)
 
 ? Selberg trace formula (1956)
-
-? Lax-Milgram theorem
-
-? Hartman-Grobman theorem
 
 ? Hoeffding's inequality (1963)
 
@@ -642,7 +673,7 @@ _"You cannot make a copy an arbitrary unknown quantum state."_
 
 ? PRIMES is in P (Agrawal-Kayal-Saxena 2002)
 
-Poincare conjecture/Thurston geometrisation conjecture (Perelman 2003)
+__Thurston geometrisation__ (Perelman 2003)
 
 ? Robertson-Seymour graph minor theorem (2004)
 
